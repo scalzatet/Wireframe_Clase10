@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Domine:wght@700&family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Domine:wght@700&family=Indie+Flower&family=Permanent+Marker&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Courgette&family=Domine:wght@700&family=Gloria+Hallelujah&family=Indie+Flower&family=Kaushan+Script&family=Permanent+Marker&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Courgette&family=Domine:wght@700&family=Gloria+Hallelujah&family=Indie+Flower&family=Kaushan+Script&family=Neuton&family=Permanent+Marker&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Courgette&family=Domine:wght@700&family=Gloria+Hallelujah&family=Indie+Flower&family=Kaushan+Script&family=Neuton&family=Permanent+Marker&family=Prata&family=Righteous&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  color: white;
+  background-image: url(https://jorgelessin.com/wp-content/uploads/2015/02/Set-gratuito-de-fondos-de-Madera-para-web-en-varios-colores.jpg);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  font-family: 'Prata', serif;
+}
+
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/mesa-madera-vacia-pancarta-interior-restaurante-ventana-cristal-borrosa-burlan-fondo-abstracto-pueden-utilizar-exhibir-o-montar-sus-productos_7191-1132.jpg?size=626&ext=jpg);
+  background-size: cover;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80%;
+  margin-top: 10px;
+}
+
+body main nav {
+  border: solid #f7f5f5;
+  border-radius: 20px;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main nav h2 {
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Bitter', serif;
+}
+
+body main nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+body main nav ul li {
+  margin-top: 20px;
+  padding: 5px;
+  color: #140101;
+  width: 83%;
+  margin-left: 10px;
+  font-family: 'Bitter', serif;
+  border-radius: 7px;
+}
+
+body main nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body main nav ul li a:hover {
+  color: white;
+}
+
+body main nav ul li:hover {
+  background-image: url(https://jorgelessin.com/wp-content/uploads/2015/02/Set-gratuito-de-fondos-de-Madera-para-web-en-varios-colores.jpg);
+  cursor: pointer;
+  color: white;
+}
+
+body main nav img {
+  margin-top: 220px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+body main article {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main article .title {
+  font-family: 'Righteous', cursive;
+}
+
+body main article p {
+  font-family: 'Righteous', cursive;
+}
+
+body main article .noticia {
+  font-size: 13px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+body main article #dos {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+body main article #dos img {
+  -webkit-box-shadow: -7px -7px 9px -2px #0e0101;
+          box-shadow: -7px -7px 9px -2px #0e0101;
+  margin: auto;
+  margin-top: 10px;
+}
+
+body main aside {
+  margin-top: 20px;
+  width: 20%;
+  font-family: 'Righteous', cursive;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main aside img {
+  margin-top: 170px;
+  margin-bottom: 26px;
+  width: 80%;
+  margin-left: 15px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10%;
+  font-family: 'Prata', serif;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 617px) {
+  body header {
+    padding: 50px;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main nav {
+    display: none;
+  }
+  body main article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200%;
+  }
+  body main article .noticia.dos {
+    margin: 0;
+    padding: 0;
+  }
+  body main article .noticia p {
+    text-align: justify;
+  }
+  body main article .imagen {
+    display: none;
+  }
+  body main aside {
+    margin-left: 20px;
+  }
+  body main aside img {
+    margin-top: 80px;
+    width: 120%;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
